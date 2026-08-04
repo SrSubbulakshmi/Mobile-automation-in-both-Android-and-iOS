@@ -1,9 +1,9 @@
-package couriermobileapp.tests;
+package mobileapp.tests;
 
-import couriermobileapp.tests.BaseTest.BaseCapabilitiesTest;
-import couriermobileapp.tests.BaseTest.MobileCourierKeys;
-import couriermobileapp.tests.pages.LoginPage;
-import couriermobileapp.tests.pages.LoginPageWithBasePage;
+import mobileapp.tests.BaseTest.BaseCapabilitiesTest;
+import mobileapp.tests.BaseTest.MobileCourierKeys;
+import mobileapp.tests.pages.LoginPage;
+import mobileapp.tests.pages.LoginPageWithBasePage;
 import org.testng.annotations.Test;
 
 
