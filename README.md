@@ -1,4 +1,4 @@
-# Courier-Mobile-Automation
+# Mobile-Automation
 ## Hybrid model - Can execute on local and on Browser cloud
 Hybrid Model - Can execute on local and on BrowserStack cloud
 
