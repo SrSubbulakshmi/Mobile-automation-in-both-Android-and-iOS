@@ -1,4 +1,4 @@
-package couriermobileapp.tests.pages;
+package mobileapp.tests.pages;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
