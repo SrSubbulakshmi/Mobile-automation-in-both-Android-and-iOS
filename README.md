@@ -2,7 +2,7 @@
 ## Hybrid model - Can execute on local and on Browser cloud
 Hybrid Model - Can execute on local and on BrowserStack cloud
 
-This framework provides a robust and scalable solution for mobile application testing. It is designed to support cross-platform test automation for both Android and iOS applications using Appium. The key feature of this framework is its ability to seamlessly switch between local execution (using simulators or emulators) and cloud execution (using BrowserStack's device cloud) by simply changing a [default.property](src/test/resources/default.properties).
+This framework provides a robust and scalable solution for mobile application testing. It is designed to support cross-platform test automation for both Android and iOS applications using Appium. The key feature of this framework is its ability to seamlessly switch between local execution (using simulators or emulators) and cloud execution (using BrowserStack's device cloud) by simply changing a [default.property](src/test/java/mobileapp/tests/resources/default.properties).
 
 ## Getting Started
 1. Clone the Repository:
@@ -22,17 +22,17 @@ This framework provides a robust and scalable solution for mobile application te
 
 ### For BrowserStack Cloud Execution:
 - The app URL is obtained after uploading your application to BrowserStack.
-- Go to the [default.properties](src/test/resources/default.properties) change the variable to `browserstack` like this `execution.environment = browserstack`
-- Go to the [default.properties](src/test/resources/default.properties) change the platform variable to `ios/android` like this `execution.environment = android`
+- Go to the [default.properties](src/test/java/mobileapp/tests/resources/default.properties) change the variable to `browserstack` like this `execution.environment = browserstack`
+- Go to the [default.properties](src/test/java/mobileapp/tests/resources/default.properties) change the platform variable to `ios/android` like this `execution.environment = android`
 
 #### Use Browserstack SDK way
 - Update the `browserstack.yml` file with your BrowserStack `username, access key, and app URL`.
-- Go to the [default.properties](src/test/resources/default.properties) change the `browserstack.legacyOrSDK` variable to `SDK` like this `browserstack.legacyOrSDK = SDK`
+- Go to the [default.properties](src/test/java/mobileapp/tests/resources/default.properties) change the `browserstack.legacyOrSDK` variable to `SDK` like this `browserstack.legacyOrSDK = SDK`
 - Run the following maven command `mvn clean test -Pbrowserstack` it will run the tests on Browser cloud
 
 #### Use Legacy way
-- In the [default.properties](src/test/resources/default.properties) set up all the following information for what you want to run on Browserstack cloud
-- Go to the [default.properties](src/test/resources/default.properties) change the `browserstack.legacyOrSDK` variable to `legacy` like this `browserstack.legacyOrSDK = legacy`
+- In the [default.properties](src/test/java/mobileapp/tests/resources/default.properties) set up all the following information for what you want to run on Browserstack cloud
+- Go to the [default.properties](src/test/java/mobileapp/tests/resources/default.properties) change the `browserstack.legacyOrSDK` variable to `legacy` like this `browserstack.legacyOrSDK = legacy`
 - For example if you want to run with `iOS` platform
     - ``` iOS.deviceName=iPhone 14 Pro Max ```
     - ``` iOS.platformVersion=16 ```
