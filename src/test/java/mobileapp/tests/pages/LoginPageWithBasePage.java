@@ -1,4 +1,4 @@
-package couriermobileapp.tests.pages;
+package mobileapp.tests.pages;
 
 import couriermobileapp.enums.LocatorNames;
 import io.appium.java_client.AppiumDriver;
