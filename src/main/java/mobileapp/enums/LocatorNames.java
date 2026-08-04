@@ -1,4 +1,4 @@
-package couriermobileapp.enums;
+package mobileapp.enums;
 
 public enum LocatorNames {
     accessibility("accessibility"),
