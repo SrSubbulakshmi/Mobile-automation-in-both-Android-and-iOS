@@ -1,6 +1,6 @@
 package mobileapp.tests.pages;
 
-import couriermobileapp.enums.LocatorNames;
+import mobileapp.enums.LocatorNames;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
