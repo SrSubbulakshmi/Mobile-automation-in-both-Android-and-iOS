@@ -1,4 +1,4 @@
-package couriermobileapp;
+package mobileapp;
 
 import org.apache.commons.lang3.ObjectUtils;
 
