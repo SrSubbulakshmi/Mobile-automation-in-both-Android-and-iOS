@@ -1,7 +1,7 @@
-package couriermobileapp.tests.BaseTest;
+package mobileapp.tests.BaseTest;
 
 
-import couriermobileapp.LoadProperties;
+import mobileapp.LoadProperties;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
@@ -155,12 +155,12 @@ public class BaseCapabilitiesTest extends LoadProperties {
            capabilities.setCapability("browserstack.debug", "true");
            capabilities.setCapability("deviceName", "Samsung Galaxy S22 Ultra");
            capabilities.setCapability("os_version", "12.0");
-           capabilities.setCapability("app", "bs://41f7cc9636605877e9208b01b120dc6a31f54d40");*//*
+           capabilities.setCapability("app", "bs://41f7cc9636605877e9208b01b120dc6a21j54d50");*//*
            capabilities.setDeviceName(getProperty("Samsung Galaxy S22 Ultra"));
            //capabilities.setApp(System.getProperty("user.dir") + getProperty("app.path") + getProperty("app.name"));
            capabilities.setAutomationName(getProperty("appium.automationName"));
            capabilities.setPlatformVersion(getProperty("12.0"));
-           capabilities.setApp("bs://41f7cc9636605877e9208b01b120dc6a31f54d40");
+           capabilities.setApp("bs://41f7cc9636605877e9208b01b120dc6a21j54d50");
            capabilities.setCapability("bstack:options", bsOptions);
            capabilities.setCapability("browserstack.debug", "true");
            driver = new AndroidDriver(new URL("http://hub-cloud.browserstack.com/wd/hub"), capabilities);
@@ -169,7 +169,7 @@ public class BaseCapabilitiesTest extends LoadProperties {
 
 
  /*          options.setCapability("platformName", MobilePlatform.ANDROID);
-           options.setCapability("app", "bs://41f7cc9636605877e9208b01b120dc6a31f54d40");
+           options.setCapability("app", "bs://41f7cc9636605877e9208b01b120dc6a21j54d50");
            options.setCapability("osVersion", "12.0");
            options.setCapability("deviceName", "Samsung Galaxy S22 Ultra");*/
 
