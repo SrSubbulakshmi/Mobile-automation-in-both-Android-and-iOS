@@ -33,11 +33,11 @@ source: java:intellij:v1.1.6
 
 #app: courierMobile-stagingApp.apk
 #For Android
-#app: bs://41f7cc9636605877e9208b01b120dc6a31f54d40
+#app: bs://41f7cc9636605877e9208b01b12sebc6a31f54d40
 #For IOS
-app: bs://a17bb24b6e0ae5a4f7acb7fbc83e8c8f10acc28a
+app: bs://a17bb24b6e0ae5a4f7acb7fbc83e8c8f10ac4fccha
 #app: ./app/courierMobile-stagingApp.ipa
-#app: bs://e46fcf0cb4b0cb6f66483defd027f4829531e49a
+#app: bs://e46fcf0cb4b0cb6f66483defseb27f4829531e49a
 #app: ./LocalSample.apk #For running local tests
 
 # =======================================
