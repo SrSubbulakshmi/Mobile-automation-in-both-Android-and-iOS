@@ -1,4 +1,4 @@
-package couriermobileapp.tests.BaseTest;
+package mobileapp.tests.BaseTest;
 
 public interface MobileCourierKeys {
     String COURIER_EMAIL = "orderFlow.delco.courier.email";
