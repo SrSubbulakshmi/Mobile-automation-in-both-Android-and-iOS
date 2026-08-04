@@ -3,7 +3,7 @@
 <suite name="CourierMobileApp">
     <test name="LoginPageTest">
         <classes>
-            <class name="couriermobileapp.tests.LoginPageTest"/>
+            <class name="mobileapp.tests.LoginPageTest"/>
         </classes>
     </test>
 </suite>
